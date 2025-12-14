@@ -1,0 +1,7 @@
+{
+  "name": "Copy of DigiTravel",
+  "description": "Your intelligent, real-time digital travel guide for the world, powered by Gemini and Google Search.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

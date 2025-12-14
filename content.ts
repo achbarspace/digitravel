@@ -1,0 +1,259 @@
+const content = {
+  "brand": {
+    "name": "DigiTravel",
+    "tagline": {
+      "en": "Your Real-Time Guide to the World",
+      "fr": "Votre Guide en Temps Réel pour le Monde",
+      "ar": "دليلك الفوري للعالم"
+    },
+    "one_line": {
+      "en": "Your intelligent, real-time digital companion for navigating culture, landmarks, and secrets across the globe.",
+      "fr": "Votre compagnon numérique intelligent pour naviguer dans la culture, les monuments et les secrets à travers le monde.",
+      "ar": "رفيقك الرقمي الذكي لاستكشاف الثقافة والمعالم والأسرار حول العالم."
+    }
+  },
+  "hero": {
+    "title": {
+      "en": "Explore the World with AI",
+      "fr": "Explorez le Monde avec l'IA",
+      "ar": "استكشف العالم بالذكاء الاصطناعي"
+    },
+    "subtitle": {
+      "en": "Navigate any city, find hidden gems, and get real-time answers with your personal global guide powered by Gemini.",
+      "fr": "Naviguez dans n'importe quelle ville, trouvez des trésors cachés et obtenez des réponses en temps réel.",
+      "ar": "تجوّل في أي مدينة، واكتشف الجواهر المخفية، واحصل على إجابات فورية مع دليلك العالمي."
+    },
+    "cta_primary": {
+      "en": "Ask DigiTravel",
+      "fr": "Demandez à DigiTravel",
+      "ar": "اسأل DigiTravel"
+    },
+    "cta_secondary": {
+      "en": "Explore Destinations",
+      "fr": "Explorer les Destinations",
+      "ar": "استكشف الوجهات"
+    }
+  },
+  "features": {
+    "en": [
+      "Global AI Chat Assistance",
+      "Real-time Flight & Weather Info",
+      "Cultural Insights for Any Country",
+      "Curated Hotel & Dining Tips",
+      "Instant Multi-language Translation"
+    ],
+    "fr": [
+      "Assistance Chat IA Mondiale",
+      "Infos Vols et Météo en Temps Réel",
+      "Aperçus Culturels pour Tout Pays",
+      "Conseils Hôtels et Restaurants",
+      "Traduction Instantanée"
+    ],
+    "ar": [
+      "مساعدة ذكية عالمية",
+      "معلومات الطيران والطقس الفورية",
+      "رؤى ثقافية لأي بلد",
+      "نصائح مختارة للفنادق والمطاعم",
+      "ترجمة فورية"
+    ]
+  },
+  "seo": {
+    "meta_title": {
+      "en": "DigiTravel | Your AI Global Travel Guide",
+      "fr": "DigiTravel | Votre Guide de Voyage IA Mondial",
+      "ar": "DigiTravel | دليلك السياحي العالمي الذكي"
+    },
+    "meta_description": {
+      "en": "Explore the world with DigiTravel. Real-time AI chat, interactive maps, and curated guides for any destination. Powered by Gemini.",
+      "fr": "Explorez le monde avec DigiTravel. Chat IA en temps réel, cartes et guides pour toutes destinations.",
+      "ar": "استكشف العالم مع DigiTravel. دردشة ذكية، خرائط، وأدلة مخصصة لأي وجهة."
+    }
+  },
+  "app_store": {
+    "short": {
+      "en": "The ultimate AI companion for global travel.",
+      "fr": "Le compagnon IA ultime pour le voyage mondial.",
+      "ar": "الرفيق الذكي الأمثل للسفر العالمي."
+    },
+    "medium": {
+      "en": "DigiTravel is your smart travel guide for the world. Get real-time answers, navigate new cities with confidence, and discover hidden gems.",
+      "fr": "DigiTravel est votre guide de voyage intelligent pour le monde. Obtenez des réponses en temps réel et naviguez en toute confiance.",
+      "ar": "DigiTravel هو دليلك السياحي الذكي للعالم. احصل على إجابات فورية وتجول في المدن الجديدة بثقة."
+    },
+    "long": {
+      "en": "Experience travel like never before. Whether you're in Tokyo, Paris, or New York, our AI-powered guide is here to help 24/7.",
+      "fr": "Vivez le voyage comme jamais auparavant. Que vous soyez à Tokyo, Paris ou New York, notre guide IA est là 24/7.",
+      "ar": "عش تجربة السفر كما لم تعهدها من قبل. سواء كنت في طوكيو أو باريس أو نيويورك، دليلنا الذكي هنا للمساعدة."
+    }
+  },
+  "social_posts": {
+    "en": [
+      "Planning a trip? ✈️ Let DigiTravel handle the itinerary. #TravelAI #GlobalExplorer",
+      "Best pasta in Rome? 🍝 Ask DigiTravel for the top local spots. #Foodie #Travel",
+      "Discover the world's secrets with your pocket AI guide. Download today! 🌍"
+    ],
+    "fr": [
+      "Vous planifiez un voyage ? ✈️ Laissez DigiTravel gérer l'itinéraire. #VoyageIA",
+      "Meilleures pâtes à Rome ? 🍝 Demandez à DigiTravel. #Gastronomie",
+      "Découvrez les secrets du monde. Téléchargez aujourd'hui ! 🌍"
+    ],
+    "ar": [
+      "تخطط لرحلة؟ ✈️ دع DigiTravel يتولى جدول الرحلة. #سفر_ذكي",
+      "أفضل باستا في روما؟ 🍝 اسأل DigiTravel. #طعام",
+      "اكتشف أسرار العالم مع دليلك الذكي. حمل التطبيق اليوم! 🌍"
+    ]
+  },
+  "ui_microcopy": {
+    "map_zoom_in": {
+      "en": "Zoom In",
+      "fr": "Zoomer",
+      "ar": "تكبير"
+    },
+    "map_zoom_out": {
+      "en": "Zoom Out",
+      "fr": "Dézoomer",
+      "ar": "تصغير"
+    },
+    "open_hours_label": {
+      "en": "Opening Hours",
+      "fr": "Heures d'Ouverture",
+      "ar": "ساعات العمل"
+    },
+    "get_directions": {
+      "en": "Get Directions",
+      "fr": "Itinéraire",
+      "ar": "الحصول على الاتجاهات"
+    },
+    "save_favorite": {
+      "en": "Save to Favorites",
+      "fr": "Ajouter aux Favoris",
+      "ar": "إضافة إلى المفضلة"
+    }
+  },
+  "poi_examples": [
+    {
+      "id": "poi-1",
+      "name": {
+        "en": "Eiffel Tower",
+        "fr": "Tour Eiffel",
+        "ar": "برج إيفل"
+      },
+      "location": "Paris, France",
+      "lat": 48.8584,
+      "lng": 2.2945,
+      "type": "landmark",
+      "short_description": {
+        "en": "The Iron Lady of Paris, offering breathtaking views of the city of lights.",
+        "fr": "La Dame de Fer de Paris, offrant une vue imprenable sur la ville lumière.",
+        "ar": "السيدة الحديدية في باريس، توفر إطلالات خلابة على مدينة الأضواء."
+      },
+      "opening_hours": {
+        "en": "09:30 - 23:45",
+        "fr": "09:30 - 23:45",
+        "ar": "09:30 - 23:45"
+      },
+      "website": "https://www.toureiffel.paris",
+      "booking_url": "https://www.getyourguide.com/s?q=eiffel+tower",
+      "price_from": "€28.00",
+      "image_url": "https://images.unsplash.com/photo-1511739001486-6bfe10ce7859?auto=format&fit=crop&w=800&q=80",
+      "tags": [
+        "landmark",
+        "views",
+        "iconic"
+      ],
+      "events": []
+    },
+    {
+      "id": "poi-2",
+      "name": {
+        "en": "Fushimi Inari Taisha",
+        "fr": "Fushimi Inari Taisha",
+        "ar": "فوشيمي إيناري تايشا"
+      },
+      "location": "Kyoto, Japan",
+      "lat": 34.9671,
+      "lng": 135.7727,
+      "type": "historic",
+      "short_description": {
+        "en": "Famous for its thousands of vermilion torii gates, which straddle a network of trails.",
+        "fr": "Célèbre pour ses milliers de torii vermillon qui jalonnent un réseau de sentiers.",
+        "ar": "يشتهر بآلاف بوابات توري القرمزية التي تمتد عبر شبكة من المسارات."
+      },
+      "opening_hours": {
+        "en": "24 Hours",
+        "fr": "24 Heures",
+        "ar": "24 ساعة"
+      },
+      "website": "http://inari.jp/en/",
+      "booking_url": "https://www.viator.com/Kyoto-tourism/d332-r22159196963-s117904071",
+      "price_from": "Free",
+      "image_url": "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?auto=format&fit=crop&w=800&q=80",
+      "tags": [
+        "shrine",
+        "hiking",
+        "culture"
+      ],
+      "events": []
+    },
+    {
+      "id": "poi-3",
+      "name": {
+        "en": "Statue of Liberty",
+        "fr": "Statue de la Liberté",
+        "ar": "تمثال الحرية"
+      },
+      "location": "New York, USA",
+      "lat": 40.6892,
+      "lng": -74.0445,
+      "type": "landmark",
+      "short_description": {
+        "en": "A colossal neoclassical sculpture on Liberty Island in New York Harbor.",
+        "fr": "Une sculpture néoclassique colossale sur Liberty Island dans le port de New York.",
+        "ar": "منحوتة كلاسيكية جديدة ضخمة في جزيرة الحرية في ميناء نيويورك."
+      },
+      "opening_hours": {
+        "en": "09:00 - 17:00",
+        "fr": "09:00 - 17:00",
+        "ar": "09:00 - 17:00"
+      },
+      "website": "https://www.nps.gov/stli",
+      "booking_url": "https://www.cityexperiences.com/new-york/city-cruises/statue/",
+      "price_from": "$24.50",
+      "image_url": "https://images.unsplash.com/photo-1500531359996-c89a0e63e49c?auto=format&fit=crop&w=800&q=80",
+      "tags": [
+        "unesco",
+        "history",
+        "icon"
+      ],
+      "events": []
+    }
+  ],
+  "map_ui_recommendations": {
+    "tile_provider": "Mapbox",
+    "marker_style": {
+      "historic": "Terra Cotta Red",
+      "landmark": "Gold",
+      "restaurant": "Saffron Yellow",
+      "hotel": "Majorelle Blue"
+    },
+    "clustering": true,
+    "behavior": "Click expands card"
+  },
+  "analytics_events": [
+    "poi_view",
+    "event_click",
+    "get_directions",
+    "share_poi"
+  ],
+  "gemini_prompts": {
+    "generate_description": "Summarize for a traveler.",
+    "translate_to_all": "Translate preserving nuance.",
+    "generate_event_summary": "Create social media hook."
+  },
+  "notes": {
+    "en": "Ensure multilingual fonts are loaded.",
+    "fr": "Assurez le chargement des polices multilingues.",
+    "ar": "تأكد من تحميل الخطوط متعددة اللغات."
+  }
+};
+export default content;
